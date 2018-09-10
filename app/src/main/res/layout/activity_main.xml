@@ -38,7 +38,7 @@
             android:layout_gravity="center"
             android:layout_marginLeft="125dp"
             android:text="@string/txtCadastrarAnimal"
-            android:id="@+id/btnCadastrarNome"
+            android:id="@+id/btnCadastrarAnimal"
             android:background="#C0D1C8"/>
     </LinearLayout>
 

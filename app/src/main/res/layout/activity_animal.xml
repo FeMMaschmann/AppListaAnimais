@@ -18,7 +18,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/hintNomeAnimal"
-        android:id="@+id/etNomeAnimal"/>
+        android:id="@+id/etNomeAnimal"
+        android:inputType="textCapWords"/>
 
     <LinearLayout
         android:layout_width="match_parent"

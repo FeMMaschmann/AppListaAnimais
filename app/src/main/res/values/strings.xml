@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">AppListaAnimais</string>
 
-    <string name="txtNomeAnimal">Animal's Name:</string>
+    <string name="txtNomeAnimal">Animal Name:</string>
     <string name="txtIdade">Age:</string>
     <string name="txtCategoria">Category:</string>
     <string name="txtNomeCategoria">Category name:</string>
@@ -10,12 +10,13 @@
     <string name="txtListar">List</string>
     <string name="txtCadastrarAnimal">Register Animal</string>
     <string name="txtCadastrarCategoria">Register Category</string>
-    <string name="hintNomeAnimal">Enter the animal's name</string>
-    <string name="hintIdade">Enter the animal's age</string>
+    <string name="hintNomeAnimal">Enter the name</string>
+    <string name="hintIdade">Enter the age</string>
     <string name="hintCategoria">Enter the category name</string>
     <string name="txtSalvar">Save</string>
     <string name="txtCancelar">Cancel</string>
 
     <string name="txtAtencao">Attention!!!</string>
     <string name="txtCamposObrigatorios">Enter required fields, name and category!</string>
+    <string name="txtCamposObrigatoriosAnimal">Enter required the name field!</string>
 </resources>

@@ -4,7 +4,6 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-
 import com.fernando.applistaanimais.model.Animal;
 import com.fernando.applistaanimais.model.Categoria;
 
@@ -23,13 +22,13 @@ public class AnimalDAO {
 
         ContentValues valores = new ContentValues();
         valores.put("nome", animal.getNome());
-        valores.put("quantidade", animal.getIdade());
+        valores.put("idade", animal.getIdade());
         valores.put("codCategoria", animal.getCategoria().getId());
 
-        banco.insert("produtos", null, valores);
+        banco.insert("animais", null, valores);
     }
 
-    public static List<Animal> getProdutos(Context contexto){
+    public static List<Animal> getAnimais(Context contexto){
         List<Animal> listaDeAnimais = new ArrayList<>();
         Conexao conn = new Conexao(contexto);
         SQLiteDatabase banco = conn.getReadableDatabase();
