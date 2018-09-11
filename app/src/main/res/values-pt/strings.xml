@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AppListaAnimais</string>
+
+    <string name="txtNomeAnimal">Nome do Animal:</string>
+    <string name="txtIdade">Idade:</string>
+    <string name="txtCategoria">Categoria:</string>
+    <string name="txtNomeCategoria">Nome da Categoria:</string>
+    <string name="txtSelecione">Selecione...</string>
+    <string name="txtNovaCategoria">Nova Categoria</string>
+    <string name="txtListar">Listar</string>
+    <string name="txtCadastrarAnimal">Registrar Animal</string>
+    <string name="txtCadastrarCategoria">Registrar Categoria</string>
+    <string name="hintNomeAnimal">Digite o nome</string>
+    <string name="hintIdade">Digite a idade</string>
+    <string name="hintCategoria">Digite o nome da categoria</string>
+    <string name="txtSalvar">Salvar</string>
+    <string name="txtCancelar">Cancelar</string>
+
+    <string name="txtAtencao">Atenção!!!</string>
+    <string name="txtCamposObrigatorios">Digite os campos obrigatórios, nome e categoria!</string>
+    <string name="txtCamposObrigatoriosAnimal">Digite o nome obrigatório!</string>
+</resources>
