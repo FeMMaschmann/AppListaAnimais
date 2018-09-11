@@ -57,11 +57,11 @@ public class AnimalActivity extends AppCompatActivity {
             if (idade.isEmpty())
                 idade = "0";
             idade = idade.replace(",", ".");
-            int qtd = Integer.valueOf(idade);
+            int ida = Integer.valueOf(idade);
 
             Animal animal = new Animal();
             animal.setNome(nome);
-            animal.setIdade(qtd);
+            animal.setIdade(ida);
             animal.setCategoria((Categoria) spCategoria.getSelectedItem());
 
             AnimalDAO.inserir(this, animal);
